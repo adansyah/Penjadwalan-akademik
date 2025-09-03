@@ -50,7 +50,7 @@
             </div>
 
             <div class="w-full max-w-sm">
-                <h2 class="text-xl font-semibold text-gray-800 mb-4">Login</h2>
+                <h2 class="text-xl font-semibold text-gray-800 mb-4 text-center">Login Mahasiswa</h2>
                 <form action="#" method="POST" class="space-y-4">
                     <div>
                         <label for="email" class="block text-sm text-gray-700">Email</label>
