@@ -14,7 +14,16 @@ return new class extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('panggilan')->nullable();
             $table->string('email')->unique();
+            $table->string('agama');
+            $table->string('daerah');
+            $table->string('gender');
+            $table->string('negara');
+            $table->date('lahir');
+            $table->text('alamat');
+            $table->char('telp');
+            $table->char('telp_wa');
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->enum('role', ['staf', 'mahasiswa'])->default('staf');

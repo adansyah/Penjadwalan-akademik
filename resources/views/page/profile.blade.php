@@ -5,7 +5,7 @@
         <div class="bg-white rounded-lg shadow-lg overflow-hidden">
             <div class="bg-gray-300 h-32 relative">
                 <div
-                    class="ml-10 absolute left-1/2 transform -translate-x-1/2 bottom-[-40px] w-20 h-20 rounded-full overflow-hidden border-4 border-white">
+                    class=" absolute left-1/2 transform -translate-x-1/2 bottom-[-40px] w-20 h-20 rounded-full overflow-hidden border-4 border-white">
                     <img src="{{ asset('sahdan.jpeg') }}" alt="Foto Profil" class="w-full h-full object-cover">
                 </div>
             </div>
@@ -41,13 +41,13 @@
                             <span class="text-gray-500">Negara</span><br><span class="font-semibold">Indonesia</span>
                         </div>
                         <div>
-                            <span class="text-gray-500">Religion</span><br><span class="font-semibold">Muslim</span>
+                            <span class="text-gray-500">Agama</span><br><span class="font-semibold">Muslim</span>
                         </div>
                         <div>
-                            <span class="text-gray-500">Other Names</span><br>Syahdan
+                            <span class="text-gray-500">Nama Panggilan</span><br>Syahdan
                         </div>
                         <div>
-                            <span class="text-gray-500">Date of Birth</span><br><span class="font-semibold">10 Mei
+                            <span class="text-gray-500">Tanggal Lahir</span><br><span class="font-semibold">10 Mei
                                 2024</span>
                         </div>
                         <div>
