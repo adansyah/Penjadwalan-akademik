@@ -32,26 +32,29 @@
                     </h2>
                     <div class="grid grid-cols-2 md:grid-cols-3 gap-y-3 gap-10 text-sm text-gray-800">
                         <div>
-                            <span class="text-gray-500">Nama</span><br>Syahdan Mutahariq
+                            <span class="text-gray-500">Nama</span><br>{{ $data->name }}
                         </div>
                         <div>
-                            <span class="text-gray-500">Jenis Kelamin</span><br>Laki -Laki
+                            <span class="text-gray-500">Jenis Kelamin</span><br>{{ $data->gender }}
                         </div>
                         <div>
-                            <span class="text-gray-500">Negara</span><br><span class="font-semibold">Indonesia</span>
+                            <span class="text-gray-500">Negara</span><br><span
+                                class="font-semibold">{{ $data->negara }}</span>
                         </div>
                         <div>
-                            <span class="text-gray-500">Agama</span><br><span class="font-semibold">Muslim</span>
+                            <span class="text-gray-500">Agama</span><br><span
+                                class="font-semibold">{{ $data->agama }}</span>
                         </div>
                         <div>
-                            <span class="text-gray-500">Nama Panggilan</span><br>Syahdan
+                            <span class="text-gray-500">Nama Panggilan</span><br>{{ $data->panggilan }}
                         </div>
                         <div>
-                            <span class="text-gray-500">Tanggal Lahir</span><br><span class="font-semibold">10 Mei
-                                2024</span>
+                            <span class="text-gray-500">Tanggal Lahir</span><br><span
+                                class="font-semibold">{{ Carbon\Carbon::parse($data->tanggal_lahir)->format('d F Y') }}</span>
                         </div>
                         <div>
-                            <span class="text-gray-500">Daerah</span><br><span class="font-semibold">Bali</span>
+                            <span class="text-gray-500">Daerah</span><br><span
+                                class="font-semibold">{{ $data->daerah }}</span>
                         </div>
                     </div>
                 </div>
@@ -66,21 +69,21 @@
                         <div>
                             <span class="text-gray-500">Email</span><br>
                             <a href="mailto:brodiethom@gmail.com" class="text-blue-600 font-medium hover:underline">
-                                adansyah225@gmail.com
+                                {{ $data->email }}
                             </a>
                         </div>
                         <div>
                             <span class="text-gray-500">Alamat</span><br>
-                            <span class="font-medium">Jalan Kopo Bandung Indonesia</span><br>
+                            <span class="font-medium">{{ $data->alamat }}</span><br>
                             02/28<br>40218
                         </div>
                         <div>
                             <span class="text-gray-500">Nomor Telfon</span><br>
-                            <span class="font-medium">089677121092</span>
+                            <span class="font-medium">{{ $data->telp }}</span>
                         </div>
                         <div>
                             <span class="text-gray-500">Nomer Whatsapp</span><br>
-                            <span class="font-medium">089677121092</span>
+                            <span class="font-medium">{{ $data->telp_wa }}</span>
                         </div>
                     </div>
                 </div>
