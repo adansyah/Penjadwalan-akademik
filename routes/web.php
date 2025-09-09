@@ -1,12 +1,12 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/dashboard', function () {
-    return view('page.dashboard');
-});
+Route::get('dashboard', [HomeController::class, 'index']);
+
 
 Route::get('/akademik', function () {
     return view('page.akademik');
