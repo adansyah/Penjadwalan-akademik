@@ -5,10 +5,10 @@
     <!-- Kanan: Notif + Avatar + Dropdown -->
     <div class="flex items-center gap-4 relative">
         <!-- Notifikasi: hanya tampil di md ke atas -->
-        <button class="text-blue-900 text-xl relative hidden md:block">
+        {{-- <button class="text-blue-900 text-xl relative hidden md:block">
             <i class="bi bi-bell"></i>
             <span class="absolute top-0 right-0 w-2 h-2 bg-blue-500 rounded-full"></span>
-        </button>
+        </button> --}}
 
         <!-- Dropdown Trigger -->
         <div id="dropdown-button" onclick="toggleDropdown()" class="flex items-center gap-2 cursor-pointer">
