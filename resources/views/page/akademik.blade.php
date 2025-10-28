@@ -13,7 +13,6 @@
 
                 <div class="space-y-3">
                     {{-- Matkul Dipilih --}}
-                    <!-- Komputer & Masyarakat (checked) -->
                     <div class="border border-gray-300 rounded-xl overflow-hidden">
                         <div class="bg-blue-900 text-white px-4 py-3 flex justify-between items-start">
                             <div>
