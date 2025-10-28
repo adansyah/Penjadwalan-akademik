@@ -30,7 +30,6 @@
                 icon.setAttribute("data-feather", "eye");
             }
 
-            // Render ulang ikon Feather
             feather.replace();
         }
     </script>
